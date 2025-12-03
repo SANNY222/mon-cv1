@@ -1,0 +1,74 @@
+/* Style général */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f4f6f9;
+    color: #333;
+}
+
+/* Conteneur principal */
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Titre */
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #1a73e8;
+}
+
+.role {
+    margin-top: 5px;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Sections */
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    color: #1a73e8;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+
+/* Listes */
+.section ul {
+    padding-left: 20px;
+}
+
+.section ul li {
+    margin-bottom: 7px;
+}
+
+/* Compétences */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills span {
+    background: #1a73e8;
+    color: white;
+    padding: 7px 14px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
